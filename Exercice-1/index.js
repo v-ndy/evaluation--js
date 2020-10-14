@@ -1,3 +1,16 @@
+'use strict';
+
+/**
+ * Exercice 1
+ */
+
+/**
+ * Generate random matrix 
+ * @param {arg} xAxis
+ * @param {arg} yAxis
+ * @return {arg} result
+ */
+
 var GridGenerator = function GridGenerator(xAxis, yAxis){
   this.xAxis = xAxis;
   this.yAxis = yAxis;
