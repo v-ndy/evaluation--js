@@ -1,9 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
+   <meta charset="UTF-8">
   <title>Exercice3</title>
 </head>
-<body>
+<style>
+
+    body {
+      width:550px;
+      margin: auto;
+    }
+
+    h1 {
+
+    }
+
+    #message {
+      font-family:; 
+      font-size:;
+    }
+
+    .square {
+      height: 100px;
+      width: 100px;
+      font-size: 60pt;
+      text-align: center;
+      font-weight: bold;
+    }
+
+</style>
+<body onload="startGame();">
+  <h1>Tom's Tic Tac Toe in JS</h1>
+
+  <div id="message">MESSAGE ICI</div>
+
+  <table border = "1">
+    <tr>
+      <td class="square" id="s1" onClick="nextMove(this)"></td>
+      <td class="square" id="s2" onClick="nextMove(this)"></td>
+      <td class="square" id="s3" onClick="nextMove(this)"></td>
+    </tr>
+    <tr>
+      <td class="square" id="s4" onClick="nextMove(this)"></td>
+      <td class="square" id="s5" onClick="nextMove(this)"></td>
+      <td class="square" id="s6" onClick="nextMove(this)"></td>
+    </tr>
+    <tr>
+      <td class="square" id="s7" onClick="nextMove(this)"></td>
+      <td class="square" id="s8" onClick="nextMove(this)"></td>
+      <td class="square" id="s9" onClick="nextMove(this)"></td>
+    </tr>
+  </table>
+  <a href="javascript: startGame();" id="restart">Nouveau jeu</a>
   <script src="index.js"></script>
 </body>
 </html>
